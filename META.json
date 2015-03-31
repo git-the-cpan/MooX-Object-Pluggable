@@ -1,0 +1,62 @@
+{
+   "abstract" : "Moo eXtension to inject plugins to exist objects as a role",
+   "author" : [
+      "Huo Linhe <huolinhe@berrygenomics.com>"
+   ],
+   "dynamic_config" : 1,
+   "generated_by" : "Module::Build version 0.4211",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "MooX-Object-Pluggable",
+   "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "configure" : {
+         "requires" : {
+            "Module::Build" : "0.28"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Modern::Perl" : "0",
+            "Module::Pluggable::Object" : "0",
+            "Moo::Role" : "0",
+            "Scalar::Util" : "0",
+            "namespace::clean" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Module::Find" : "0",
+            "Moo" : "0",
+            "MooX" : "0",
+            "Moops" : "0",
+            "Role::Tiny" : "0",
+            "Test::More" : "0",
+            "Test::Pod" : "0",
+            "lib" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "MooX::Object::Pluggable" : {
+         "file" : "lib/MooX/Object/Pluggable.pm",
+         "version" : "v0.0.4"
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "license" : [
+         "http://dev.perl.org/licenses/"
+      ]
+   },
+   "version" : "v0.0.4"
+}

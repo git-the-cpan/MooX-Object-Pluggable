@@ -1,0 +1,22 @@
+Revision history for package MooX-Object-Pluggable
+
+0.0.4 2015-03-09T10:21:23
+ [Huo Linhe]
+ - Add test for external use.
+ - Support parameters for external use of consumers
+ - Fix bug: load multiple times for one plugin
+
+0.0.3 2015-03-09T07:05:55Z
+ [Huo Linhe]
+ - Fix typo in POD document
+
+0.0.2 2015-03-09T07:02:14Z
+ [Huo Linhe]
+ - Add MooX compatible support, use Moops for MooX test
+
+0.0.1 2015-01-30T07:16:26Z
+ [Huo Linhe]
+ - Test for MooX-Object-Pluggable
+ - Create the package with help of Module::Pluggable::Object
+ - Initialize gitrepo with `dzil new`
+
